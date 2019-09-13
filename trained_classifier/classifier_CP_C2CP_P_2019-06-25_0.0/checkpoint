@@ -1,0 +1,6 @@
+model_checkpoint_path: "classifier.model-24"
+all_model_checkpoint_paths: "classifier.model-20"
+all_model_checkpoint_paths: "classifier.model-21"
+all_model_checkpoint_paths: "classifier.model-22"
+all_model_checkpoint_paths: "classifier.model-23"
+all_model_checkpoint_paths: "classifier.model-24"
