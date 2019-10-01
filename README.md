@@ -19,10 +19,6 @@ The directories 'cyclegan_both', 'cyclegan_sa', 'cyclegan_sn' and 'cyclegan_vani
 
 For cyclegan model details, please see [sumu's Cyclegan project](https://github.com/sumuzhao/CycleGAN-Music-Style-Transfer)
 
-[Self-Attention GAN](https://arxiv.org/abs/1805.08318)
-
-[Spctral Normalization](https://arxiv.org/abs/1802.05957)
-
 ## Pipeline
 - Train a cyclegan model:
 ```bash
