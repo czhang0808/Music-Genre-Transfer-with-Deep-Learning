@@ -42,6 +42,6 @@ You can choose 'AtoB' and 'BtoA' in which_direction.
 python main.py --dataset_A_dir='JC_J' --dataset_B_dir='JC_C' --type='classifier'
 ```
 
-- Use the genre classifier to evaluate the midi files generated from trained cyclegan model:
+- Use genre classifier to evaluate midi files generated from the trained cyclegan model:
 ```bash
 python main.py --dataset_A_dir='JC_J' --dataset_B_dir='JC_C' --type='classifier' --model='base' --phase='test' --which_direction='AtoB'
