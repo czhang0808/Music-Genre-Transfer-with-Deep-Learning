@@ -24,14 +24,14 @@ For cyclegan model details, please see sumu's Cyclegan project https://github.co
 [Spctral Normalization](https://arxiv.org/abs/1802.05957)
 
 ## Pipeline
-- Train a  model:
+- Train a cyclegan model:
 ```bash
 python main.py --dataset_A_dir='JC_J' --dataset_B_dir='JC_C' --model='base'
 ```
-for dataset we have: 'JC', 'JP' and 'CP'
+for dataset we have: 'JC', 'JP' and 'CP'./
 for models: 'base', 'partial' and 'full'. 
 
-- Test a  model:
+- Test the model with test data:
 ```bash
 python main.py --dataset_A_dir='JC_J' --dataset_B_dir='JC_C' --model='base' --phase='test' --which_direction='AtoB'
 ```
@@ -42,6 +42,6 @@ You can choose 'AtoB' and 'BtoA' in which_direction.
 python main.py --dataset_A_dir='JC_J' --dataset_B_dir='JC_C' --type='classifier'
 ```
 
-- Test the trained CycleGAN model using the trained genre classifier:
+- Use the genre classifier to evaluate the midi files generated from trained cyclegan model:
 ```bash
 python main.py --dataset_A_dir='JC_J' --dataset_B_dir='JC_C' --type='classifier' --model='base' --phase='test' --which_direction='AtoB'
