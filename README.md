@@ -2,7 +2,7 @@
 
 - This project follows sumu's Cyclegan project https://github.com/sumuzhao/CycleGAN-Music-Style-Transfer
 
-- Two extra methods are introduced: Spectral Normalization and Self-Attention GANs. Their effects are tested.
+- Two extra methods are introduced: [Spctral Normalization](https://arxiv.org/abs/1802.05957) and [Self-Attention GAN](https://arxiv.org/abs/1805.08318). Their effects are tested.
 
 - an alternative genre classifier can also be used, which is a multi-type classifier that directly classify the three genres instead of a binary classification.
 
