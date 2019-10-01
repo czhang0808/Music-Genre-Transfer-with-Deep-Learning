@@ -4,11 +4,11 @@
 
 - Two extra methods are introduced: [Spctral Normalization](https://arxiv.org/abs/1802.05957) and [Self-Attention GAN](https://arxiv.org/abs/1805.08318). Their effects are tested.
 
-- an alternative genre classifier can also be used, which is a multi-type classifier that directly classify the three genres instead of a binary classification.
+- An alternative genre classifier can also be used, which is a multi-type classifier that directly classify the three genres instead of a binary classification.
 
-- original datas are here: https://goo.gl/ZK8wLW
+- Original datas are here: https://goo.gl/ZK8wLW
 
-- some result samples: http://bit.ly/31VnTxS
+- Some result samples: http://bit.ly/31VnTxS
 
 ## Training data
 The directory 'notebook' contains files that generate the training data and do some data statistics.
@@ -24,14 +24,14 @@ For cyclegan model details, please see [sumu's Cyclegan project](https://github.
 ```bash
 python main.py --dataset_A_dir='JC_J' --dataset_B_dir='JC_C' --model='base'
 ```
-for dataset we have: 'JC', 'JP' and 'CP'.  
-for models: 'base', 'partial' and 'full'. 
+For dataset we have: 'JC', 'JP' and 'CP'.  
+For models: 'base', 'partial' and 'full'. 
 
 - Test the model with test data:
 ```bash
 python main.py --dataset_A_dir='JC_J' --dataset_B_dir='JC_C' --model='base' --phase='test' --which_direction='AtoB'
 ```
-You can choose 'AtoB' and 'BtoA' in which_direction. 
+'AtoB' and 'BtoA' can be set in 'which_direction'.
 
 - Train a genre classifier:
 ```bash
