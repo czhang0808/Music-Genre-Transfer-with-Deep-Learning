@@ -17,7 +17,7 @@ To generate or manipulate the training data, please follow the notebook 'generat
 ## Models
 The directories 'cyclegan_both', 'cyclegan_sa', 'cyclegan_sn' and 'cyclegan_vanilla' are corresponding to cyclegan model with Self-Attention GAN and Spectral Normalization, cyclegan model with Self-Attention GAN, cyclegna model with Spectral Normalization, and the vanilla cyclegan model.
 
-For cyclegan model details, please see sumu's Cyclegan project https://github.com/sumuzhao/CycleGAN-Music-Style-Transfer
+For cyclegan model details, please see [sumu's Cyclegan project](https://github.com/sumuzhao/CycleGAN-Music-Style-Transfer)
 
 [Self-Attention GAN](https://arxiv.org/abs/1805.08318)
 
@@ -28,7 +28,7 @@ For cyclegan model details, please see sumu's Cyclegan project https://github.co
 ```bash
 python main.py --dataset_A_dir='JC_J' --dataset_B_dir='JC_C' --model='base'
 ```
-for dataset we have: 'JC', 'JP' and 'CP'./
+for dataset we have: 'JC', 'JP' and 'CP'.  
 for models: 'base', 'partial' and 'full'. 
 
 - Test the model with test data:
