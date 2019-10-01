@@ -11,7 +11,7 @@
 - Some result samples: http://bit.ly/31VnTxS
 
 ## Training data
-The directory 'notebook' contains files that generate the training data and do some data statistics.
+The directory 'notebook' contains files that generate the training data and do some data statistics.  
 To generate or manipulate the training data, please follow the notebook 'generate_npy_from_midi.ipynb'
 
 ## Models
